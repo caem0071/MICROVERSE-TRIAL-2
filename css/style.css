@@ -1,9 +1,23 @@
+body{
+  background-color:rgb(192, 224, 224);
+}
+
 #navbar{
     position: fixed;
+    font-family:Calibri;
+    font-size:large;
+    background-color:rgb(137, 228, 228);
 }
 
 .main-section{
     margin-left:200px;
+    font-family:calibri;
+    font-size:medium;
+}
+
+header{
+  font-size:40px;
+  font-weight:bold;
 }
 
 @media only screen and (max-width: 800px) 
