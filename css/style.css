@@ -1,4 +1,29 @@
 #navbar{
-    position:fixed;
-    width:100%;
+    position: fixed;
 }
+
+.main-section{
+    margin-left:200px;
+}
+
+@media only screen and (max-width: 800px) 
+{
+  /* For mobile phones: */
+  #navbar {
+    position: absolute;
+    height: 1300px;
+    min-width: 120px;
+    width: 120px;
+    font-size: 3vw;
+    
+    top: 0px;
+    margin-top: 35px; 
+    left: 0px;
+  
+    color: black;
+    background-color: white;
+    padding: 0px 0px;
+    z-index: 1;
+  }
+}
+
